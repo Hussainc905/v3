@@ -1,0 +1,21 @@
+GitHub — ترقية التطبيق من V1.0 إلى V1.1
+
+أنت في المستودع: Hussainc905/elyas-light
+
+1) فك ZIP على حاسوبك.
+2) افتح GitHub → elyas-light → Code → Add file → Upload files.
+3) ارفع محتويات ZIP، وليس المجلد الخارجي نفسه، مع الانتباه إلى مجلد .github المخفي.
+   يجب أن تبقى المسارات هكذا:
+   .github/workflows/build-apk.yml
+   app/src/main/java/com/elyastech/lightcontrol/MainActivity.java
+   app/src/main/java/com/elyastech/lightcontrol/BluetoothService.java
+   app/src/main/AndroidManifest.xml
+   app/src/main/res/drawable/brand_logo.png
+4) اضغط Commit changes. الملفات القديمة بنفس المسار يجب استبدالها بالملفات الجديدة.
+5) تبويب Actions → Build Android APK. سيبدأ تلقائياً عند Commit، أو Run workflow.
+6) عند ظهور علامة صح خضراء نزّل ELYAS_LIGHT_CONTROL_ANDROID_APK.
+7) ثبّت APK فوق التطبيق القديم إذا كان توقيع البناء متطابقاً. إذا رفض Android التحديث بسبب اختلاف التوقيع، احذف القديم بعد التأكد أنك تريد فقدان إعداداته ثم ثبّت الجديد.
+
+تغيير الصورة المؤقتة: ضع الصورة الأصلية بنفس الاسم brand_logo.png بمسار app/src/main/res/drawable، ولأيقونة التطبيق استبدل app_icon.png.
+
+ملاحظة: لا يمكن ضمان اتصال البلوتوث بعد الإيقاف الإجباري للتطبيق أو قيود توفير الطاقة في الهاتف.

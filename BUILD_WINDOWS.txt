@@ -1,0 +1,9 @@
+ELYAS LIGHT CONTROL V1.1
+
+Windows / Android Studio:
+1. افتح هذا المجلد كمشروع Android Studio.
+2. انتظر إكمال Gradle Sync (Android Gradle Plugin 8.6.1 حسب build.gradle).
+3. Build -> Build APK(s).
+4. ملف APK التجريبي في app/build/outputs/apk/debug/app-debug.apk.
+
+GitHub: استخدم .github/workflows/build-apk.yml الموجود في ZIP؛ لا تنشئ workflow منفصلاً في workflows خارج .github.
